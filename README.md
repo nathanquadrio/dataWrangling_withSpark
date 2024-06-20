@@ -91,22 +91,5 @@ The script performs the following steps:
 1. Ensure you have set up the prerequisites.
 2. Run the script:
    ```bash
-   python your_script.py
+   python data_wrangling.py
    ```
-   Replace `your_script.py` with the actual name of your script file.
-
-## Example Output
-
-The script logs various statistics and analysis results. For example:
-- Pages not visited by users with an empty `userId`.
-- Number of female users.
-- The most frequently played artist and their play count.
-- The average number of songs listened to between visits to the "Home" page.
-
-## Additional Notes
-
-- The script is highly configurable. You can uncomment the lines in the "Data Verification and Exploration" section to explore the data further.
-- The current setup is for a small sample file (`sparkify_log_small.json`). For larger datasets, ensure your Spark setup can handle the data efficiently.
-
-Feel free to modify and extend the script to suit your analysis needs.
-```
